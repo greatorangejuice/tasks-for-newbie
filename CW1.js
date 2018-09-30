@@ -8,3 +8,4 @@ function testGit(count, access)
 }
 testGit(10,true)
 alert(testGit(10,true));
+alert("Hello");
