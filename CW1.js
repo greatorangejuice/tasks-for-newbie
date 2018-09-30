@@ -7,3 +7,4 @@ function testGit(count, access)
     console.log(count);
 }
 testGit(10,true)
+alert(testGit(10,true));
