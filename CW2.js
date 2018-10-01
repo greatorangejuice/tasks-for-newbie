@@ -2,7 +2,7 @@ function getCount(str) {
 
     var vowelsCount = 0;
     console.log(str.length);
-    
+
     for (var i = 0; i <= str.length; i++ ) {
         switch (str[i]) {
             case "a":
@@ -36,11 +36,7 @@ The input string will only consist of lower case letters
 and/or spaces. 
   */
 
-  /////TEST/////
-/*
- describe("Case 1", function(){
-    it ("should be defined", function(){
-        Test.assertEquals(getCount("abracadabra"), 5)
-    });
-});
-*/
+  
+ function getCount(str) {
+    return (str.match(/[aeiou]/ig)||[]).length;
+  }
