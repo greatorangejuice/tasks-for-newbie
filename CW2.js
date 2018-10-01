@@ -1,24 +1,32 @@
 function getCount(str) {
+
     var vowelsCount = 0;
+    console.log(str.length);
+    
     for (var i = 0; i <= str.length; i++ ) {
         switch (str[i]) {
             case "a":
             vowelsCount += 1;
+            break;
             case "e":
             vowelsCount += 1;
+            break;
             case "i":
             vowelsCount += 1;
+            break;
             case "o":
             vowelsCount += 1;
+            break;
+            case "u":
+            vowelsCount += 1;
+            break;
             
         }
-        
-        return vowelsCount;
     }
-    
+    return vowelsCount;
   }
 
-alert( getCount("abracadabra") );
+alert( getCount("o a kak ushakov lil vo kashu kakao") );
   /*
   Return the number (count) of vowels in the given string.
 
