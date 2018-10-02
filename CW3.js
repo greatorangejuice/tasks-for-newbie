@@ -1,7 +1,10 @@
 function humanReadable(seconds) {
-    var HH = Math.Floor(seconds/3600);
-    var MM = Math.Floor((seconds - HH*3600)/60);
-    var SS = seconds - HH*3600 - MM*3600;
+    var HH = seconds/3600 ^ 0;
+    var MM = (seconds-HH*3600)/60 ^ 0;
+    var SS = seconds - HH*3600 - MM*60;
+    var newTime = (HH < 10 ? "0" + HH : HH) + ":" + (MM < 10 ? "0" + MM : MM) + ":" 
+    + (SS < 10 ? "0" + SS : SS);
+    return newTime;
   }
 // осталось вывести результат
 
