@@ -1,7 +1,9 @@
 function humanReadable(seconds) {
-    // TODO
+    var HH = Math.Floor(seconds/3600);
+    var MM = Math.Floor((seconds - HH*3600)/60);
+    var SS = seconds - HH*3600 - MM*3600;
   }
-
+// осталось вывести результат
 
 
 /*
