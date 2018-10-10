@@ -1,4 +1,4 @@
-test.html
-learnJS.js
-.gitignore
-.html
+/test.html
+/learnJS.js
+/.gitignore
+*.html
