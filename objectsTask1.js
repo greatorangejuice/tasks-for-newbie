@@ -4,7 +4,6 @@ var salaries = {
   "Даша": 250
 };
 
-
 function sum(obj) {
     var max = 0;
 
