@@ -1,8 +1,7 @@
 function toWeirdCase(string) {
     let arr = string.split(" "); 
-    console.log(arr.length); 
     let newString = ""; 
-
+    
     for ( let i = 0; i < arr.length; i++ ) {
         let word = arr[i];
         for ( let j = 0; j < word.length; j++ ) {  
