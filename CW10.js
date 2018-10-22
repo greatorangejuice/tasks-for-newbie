@@ -1,12 +1,12 @@
-function disemvowel(str) {
-    return str;
-  }
+// function disemvowel(str) {
+//     return str;
+//   }
 
 
 
 
-  Test.assertEquals(disemvowel("This website is for losers LOL!"),
-  "Ths wbst s fr lsrs LL!")
+//   Test.assertEquals(disemvowel("This website is for losers LOL!"),
+//   "Ths wbst s fr lsrs LL!")
 
 
 
@@ -19,3 +19,14 @@ function disemvowel(str) {
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
 // Note: for this kata y isn't considered a vowel.
+
+undefined = true; // устанавливаем мину для другого кода! остерегайтесь!
+
+(function IIFE( undefined ){
+
+	var a;
+	if (a === undefined) {
+		console.log( "Undefined is safe here!" );
+	}
+
+})();

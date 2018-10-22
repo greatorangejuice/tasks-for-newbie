@@ -4,4 +4,4 @@ function sum(a) {
     };
 };
 
-function(5)(4);
+sum(5)(4);
