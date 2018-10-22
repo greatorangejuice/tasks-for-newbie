@@ -1,10 +1,27 @@
+<<<<<<< HEAD
 // function disemvowel(str) {
 //     return str;
 //   }
+=======
+function disemvowel(str) {
+let vowels = ["a", "i", "o", "u", "e"];
+let words = str.split("");
+let newStr = "";
+
+  for ( let i = 0; i < words.length; i++ ) {
+      let word = words[i];
+      if ( vowels.indexOf(word.toLowerCase()) == -1 ) {
+      newStr += word;
+      }
+  }
+  return newStr;
+}
+>>>>>>> 680a59f83018739da26185f3c45af02a571ca018
 
 
 
 
+<<<<<<< HEAD
 //   Test.assertEquals(disemvowel("This website is for losers LOL!"),
 //   "Ths wbst s fr lsrs LL!")
 
@@ -30,3 +47,6 @@ undefined = true; // устанавливаем мину для другого �
 	}
 
 })();
+=======
+
+>>>>>>> 680a59f83018739da26185f3c45af02a571ca018
