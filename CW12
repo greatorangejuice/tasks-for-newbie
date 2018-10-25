@@ -1,0 +1,10 @@
+String.prototype.camelCase=function(){
+  //your code here
+}
+
+
+
+
+
+"hello case".camelCase() => HelloCase
+"camel case word".camelCase() => CamelCaseWord
