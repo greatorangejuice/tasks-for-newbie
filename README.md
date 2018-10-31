@@ -12,4 +12,10 @@ This repositor only for education and github test
 - "CW6" - titleCase
 - "CW7" - checkCoupon
 - "CW8" - squareSum
-- "CW9" - toWeirdCase - in develop
+- "CW9" - toWeirdCase 
+
+- "CW10" - disemvowel
+- "CW11" - sortByLength 
+- "CW12" - countBits - ## in dev
+- "CW13" - prototypeCamelCase
+- "CW14" - incrementString
