@@ -58,9 +58,3 @@ domainName("https://google.com");
 domainName("http://www.google.com");
 domainName("398d6q9tt.co/index.php");
 domainName("https://www.ouly7ietp-k2g2w00okvo.io/warez/");
-
-
-// Test.assertEquals(domainName("http://google.com"), "google");
-// Test.assertEquals(domainName("http://google.co.jp"), "google");
-// Test.assertEquals(domainName("www.xakep.ru"), "xakep");
-// Test.assertEquals(domainName("https://youtube.com"), "youtube");

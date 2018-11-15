@@ -19,3 +19,7 @@ This repositor only for education and github test
 - "CW12" - countBits - ## in dev
 - "CW13" - prototypeCamelCase
 - "CW14" - incrementString
+- "CW15" - peopleInLine
+- "CW16" - camelCase
+- "CW17" - domainName
+- "CW18" - 
