@@ -1,15 +1,14 @@
 var countBits = function(n) {
-  // Program Me
+  var numberInTen = n.toString(2)
+  var stringNumber = numberInTen + "";
+  var result = 0;
+  for (var i = 0; i < stringNumber.length; i++) {
+    if ( +(stringNumber.charAt(i)) == 1) {
+      result += 1
+    }  
+  }
+  return result;
 };
+alert( countBits(1234) );
 
-
-/*
-Test.assertEquals(countBits(0), 0);
-Test.assertEquals(countBits(4), 1);
-Test.assertEquals(countBits(7), 3);
-Test.assertEquals(countBits(9), 2);
-Test.assertEquals(countBits(10), 2);
-*/
-
-// Example: The binary representation of 1234 is 10011010010,
-// so the function should return 5 in this case
+// Decision from prof. countBits = n => n.toString(2).split('0').join('').length;
