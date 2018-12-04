@@ -16,10 +16,15 @@ This repositor only for education and github test
 
 - "CW10" - disemvowel
 - "CW11" - sortByLength 
-- "CW12" - countBits - ## in dev
+- "CW12" - countBits 
 - "CW13" - prototypeCamelCase
 - "CW14" - incrementString
 - "CW15" - peopleInLine
 - "CW16" - camelCase
 - "CW17" - domainName
-- "CW18" - 
+- "CW18" - anagrams
+- "CW19" - formatDuration 
+- "CW20" - firstNonRepeatingLetter (dev)
+- "CW21" - moveZeros
+- "CW22" - whoIsNext (dev)
+- "CW23" - 
